@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильтр</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body> 
+    <div class="container">
+               <div class="heder">
+            <img src="/img/NOVO.svg" class="Logo" alt="Логотип">  
+            <div class="header-href">
+                <div class="language-container">
+                    <a href="#" class="Href language-trigger">Русский</a>
+                    <div class="language-dropdown">
+                        <a href="#">Русский</a>
+                        <a href="#">English</a>
+                        <a href="#">Deutsch</a>
+                        <a href="#">Français</a>
+                        <a href="#">Español</a>
+                    </div>
+                </div>
+                
+                <div class="currency-container">
+                    <a href="#" class="Href currency-trigger">Евро</a>
+                    <div class="currency-dropdown">
+                        <a href="#">Евро (€)</a>
+                        <a href="#">Доллар ($)</a>
+                        <a href="#">Фунт (£)</a>
+                        <a href="#">Рубль (₽)</a>
+                    </div>
+                </div>
+                
+                <div class="search-container">
+                    <a href="#" class="Href search-trigger">Поиск</a>
+                    <div class="search-dropdown">
+                        <input type="text" class="search-input" placeholder="Введите запрос...">
+                    </div>
+                </div>
+            </div> 
+
+            <div class="button-header">
+                <div class="button-container profile">
+                    <button class="button1">Мой профиль</button>
+                    <div class="profile-dropdown">
+                        <a href="">Избранное</a>
+                        <a href="#">Сообщения</a>
+                        <a href="#">Настройки профиля</a>
+                    </div>
+                </div>
+                
+                <div class="button-container seller">
+                    <button class="button2">Стать продавцом</button>
+                    <div class="seller-dropdown">
+                        <a href="#">Регистрация продавца</a>
+                        <a href="#">Условия сотрудничества</a>
+                        <a href="/html/index.html">Комиссия и тарифы</a>
+                        <a href="#">FAQ для продавцов</a>
+                        <a href="#">Контакты поддержки</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+       <div class="filter-container">
+    <div class="filter">
+        <h1 class="main">Главная > <span class="span">Транспортные средства</span></h1> 
+        
+        <!-- Цена -->
+        <div class="filter-section">
+            <h2 class="filter-title">Цена, €</h2>
+            <div class="price-inputs">
+                <div class="price-input-group">
+                    <span class="price-label">От</span>
+                    <input type="text" class="price-input" value="1200">
+                </div>
+                <div class="price-input-group">
+                    <span class="price-label">До</span>
+                    <input type="text" class="price-input" value="152446">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Тип транспорта -->
+        <div class="filter-section">
+            <h2 class="filter-title">Тип транспорта</h2>
+            <div class="filter-options">
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Грузовики</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Удлиненный</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" checked>
+                    <span class="checkbox-custom"></span>
+                    <span>Ман</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Микроавтомобиль</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Стандартный</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Уголь</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Несто</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Улицный</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Страна/местоположение -->
+        <div class="filter-section">
+            <h2 class="filter-title">Страна местно-хозяйственная</h2>
+            <div class="filter-country">
+                <div class="country-header">
+                    <span class="country-name">Организация: Италия</span>
+                    <button class="country-clear">✕</button>
+                </div>
+                <div class="country-options">
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span>Италия</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span>Франция</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span>Германия</span>
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span>Испания</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Коробка передач -->
+        <div class="filter-section">
+            <h2 class="filter-title">Коробка передач</h2>
+            <div class="filter-options">
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Коробка автомат</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" checked>
+                    <span class="checkbox-custom"></span>
+                    <span>Механическая</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Тип объединения -->
+        <div class="filter-section">
+            <h2 class="filter-title">Тип объединения</h2>
+            <div class="filter-options">
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Продавец</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" checked>
+                    <span class="checkbox-custom"></span>
+                    <span>Аукцион</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>По запросу</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Лизинг</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span>Салон в аренду</span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Кнопки фильтров -->
+        <div class="filter-actions">
+            <button class="filter-apply">Применить фильтр</button>
+            <button class="filter-reset">Сбросить фильтр</button>
+        </div>
+    </div>   
+   
+     
+</div> 
+
+<div class="cards-container">
+    <h2 class="cards-title">Результаты поиска <span class="results-count">(15 результатов)</span></h2>
+    
+    <div class="sort-container">
+        <select class="sort-select">
+            <option value="relevance">По релевантности</option>
+            <option value="price-low">Цена: по возрастанию</option>
+            <option value="price-high">Цена: по убыванию</option>
+            <option value="newest">Сначала новые</option>
+            <option value="mileage">Пробег: по возрастанию</option>
+        </select>
+    </div>
+    
+    <!-- Контейнер для карточек -->
+    <div class="cards-grid">
+    </div>
+    
+</div>
+      
+
+
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
